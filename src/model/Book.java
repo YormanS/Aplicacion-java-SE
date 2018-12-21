@@ -155,7 +155,7 @@ public class Book extends Publication implements IVisualizable {
         
         for (int i = 0; i < 3; i++) {
             pagina = i+1;
-            pages.add(new Page(pagina, "El contenido de la pagina " + pagina));
+            pages.add(new Book.Page(pagina,"El contenido de la pagina "+pagina));
         }
         
         for (int i = 1; i <= 5; i++) {
